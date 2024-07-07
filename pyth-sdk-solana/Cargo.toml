@@ -7,11 +7,11 @@ license = "Apache-2.0"
 homepage = "https://pyth.network"
 repository = "https://github.com/pyth-network/pyth-sdk-rs"
 description = "pyth price oracle data structures and example usage"
-keywords = [ "pyth", "solana", "oracle" ]
+keywords = ["pyth", "solana", "oracle"]
 readme = "README.md"
 
 [dependencies]
-solana-program = ">= 1.9"
+solana-program = "1.18.12"
 borsh = "0.10.3"
 borsh-derive = "0.10.3"
 bytemuck = "1.7.2"
